@@ -1,0 +1,3 @@
+[submodule "txt/do-butsu"]
+	path = txt/do-butsu
+	url = https://github.com/hiroaki-oohata/SubModule.git
