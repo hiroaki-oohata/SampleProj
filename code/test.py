@@ -1,12 +1,9 @@
 #!/usr/bin/python
 # -*- coding: Shift-JIS -*-
 
-# ”“–‚ÄƒQ[ƒ€
-# ƒ‰ƒ“ƒ_ƒ€‚ÉŒˆ‚ß‚ç‚ê‚½”ši1`100j‚ğ“–‚Ä‚é
-
 import random as rd
 
-# ³‰ğ‚Ì‰æ–Ê•\¦ˆ—
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‰ï¿½Ê•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 def disp_msg(count):
     msg = ""
     if count < 5 :
@@ -16,26 +13,25 @@ def disp_msg(count):
     else:
         msg = "Good!"
 
-    print(msg ,"³‰ğ‚Å‚·")
+    print(msg ,"Test")
     return
 
-# ƒƒCƒ“ˆ—
-print("**** ”“–‚ÄƒQ[ƒ€ ****")
-print("1-100‚Ì”š‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢Bend“ü—Í‚ÅI—¹")
+print("**** asa ****")
+print("1-100æ–‡å­—åŒ–ã‘")
 
 ans = rd.randint(1,100)
 #print("[DBG] ans=",ans)
 
 cnt = 0
 while True:
-    num = input("”š‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢ > ")
+    num = input("ã‚ > ")
     if num == "end":
         break
     num = int(num)
     if num < ans :
-        print("EEE‚à‚Á‚Æ‘å‚«‚¢")
+        print("ï½“ãˆï½—ï½—")
     elif ans < num :
-        print("EEE‚à‚Á‚Æ¬‚³‚¢")
+        print("ï¼•ã†ã‡ï½—")
     elif ans == num :
         disp_msg(cnt)
         break
