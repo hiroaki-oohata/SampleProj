@@ -16,7 +16,7 @@ def disp_msg(count):
     else:
         msg = "Good!"
 
-    print(msg ,"³‰ğ‚Å‚·")
+    print(msg ,"³‰ğ‚Å‚·!!!")
     return
 
 # ƒƒCƒ“ˆ—
